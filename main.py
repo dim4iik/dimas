@@ -54,9 +54,9 @@ class Student:
         print(f"{day:=^50}")
         live_cube = random.randint(1,3)
         if live_cube == 1:
-        self.to_study()
-        elif live.cube == 2:
-        self.to_chill()
+         self.to_study()
+        elif live_cube == 2:
+         self.to_chill()
         else:
             self.to_sleep()
             self.day_info()
