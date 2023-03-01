@@ -30,6 +30,10 @@ class Student:
         self.gladness += 5
         self.progress -= 0.1
         self.money -=10
+    def computer_games(self):
+        print('Play and chill!')
+        self.gladness += 10
+        self.money -= 1
 
     def to_sleep(self):
         print('Time to sleep')
